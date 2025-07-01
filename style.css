@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f4ff;
+  color: #333;
+}
+
+.header {
+  background: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  color: #7e22ce;
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.intro h2 {
+  color: #7e22ce;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.product-card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.product-card h3 {
+  color: #6b21a8;
+}
+
+.product-card span {
+  display: block;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.product-card button {
+  background: #7e22ce;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bundle {
+  background: #ede9fe;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.bundle h3 {
+  margin-top: 0;
+  color: #5b21b6;
+}
+
+.bundle button {
+  background: #6d28d9;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.why {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.why h3 {
+  color: #7e22ce;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  background: white;
+  border-top: 1px solid #eee;
+}
